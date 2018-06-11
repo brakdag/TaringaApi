@@ -1,8 +1,14 @@
 # TaringaApi
 Una especie de api para la V7 taringa, ideal para uso en repl.
 
+## Instalación
+Debe tener instalado nodejs y con el npm.
+```bash
+npm i taringa 
+```
+## ejecución
 ```javascript
-const t = require(".lib/taringa");
+const t = require("taringa");
 var taringa = new t();
 taringa.logear("usuario","clave");
 taringa.shoutear("texto de prueba","");
