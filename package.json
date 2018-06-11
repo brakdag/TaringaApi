@@ -1,6 +1,6 @@
 {
   "name": "taringa",
-  "version": "1.0.05",
+  "version": "1.0.06",
   "description": "Una especie de api para la V7 taringa",
   "main": "./lib/index.js",
   "directories": {
