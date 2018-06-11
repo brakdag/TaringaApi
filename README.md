@@ -5,7 +5,7 @@ It's api for V7 of (taringa)[https://www.taringa.net/].
 ## Install
 
 ```bash
->npm i taringa 
+npm i taringa 
 ```
 ## Run
 
