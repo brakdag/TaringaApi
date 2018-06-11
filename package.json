@@ -1,5 +1,5 @@
 {
-  "name": "taringaapi",
+  "name": "taringa",
   "version": "1.0.0",
   "description": "Una especie de api para la V7 taringa",
   "main": "app.js",
@@ -9,8 +9,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
-  },
+   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brakdag/TaringaApi.git"
@@ -22,7 +21,6 @@
   },
   "homepage": "https://github.com/brakdag/TaringaApi#readme",
   "dependencies": {
-    "commander": "^2.15.1",
     "querystring": "^0.2.0",
     "request": "^2.87.0"
   }
