@@ -1,13 +1,22 @@
 # TaringaApi
-Una especie de api para la V7 taringa
+Una especie de api para la V7 taringa, ideal para uso en repl.
 
-Algunas de las funciones disponibles:
+```javascript
+const t = require(".lib/taringa");
+var taringa = new t();
+taringa.logear("usuario","clave");
+taringa.shoutear("texto de prueba","");
+taringa.deslogear();
+``` 
+## Algunas de las funciones disponibles:
 
 Logear()
 
 Desloguear()
 
 shoutear(contenido, url_multimedia)
+
+# TODO
 
 shoutearAUsuario(usuario, mensaje, multimedia)
 
